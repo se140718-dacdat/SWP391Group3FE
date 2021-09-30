@@ -12,7 +12,7 @@
     background-color: rgba(242, 114, 41, 0.7);
 }
 
-.modal-cover {
+#modal-cover {
     position: relative;
     background-color: var(--primary-color);
     width: 34%;
@@ -91,7 +91,7 @@
 .input-user-icon {
     z-index: 1;
     position: absolute;
-    top: 45%;
+    top: 300px;
     font-size: 30px;
     opacity: 70%;
     left: 14%;
@@ -100,7 +100,7 @@
 .input-pwd-icon {
     z-index: 1;
     position: absolute;
-    top: 62.5%;
+    top: 420px;
     font-size: 30px;
     opacity: 70%;
     left: 14%;
@@ -127,6 +127,12 @@
     text-decoration: none;
 }
 
-.open {
-    display: block;
+.login-status {
+    color: #E82228;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.display {
+    display: block !important;
 }

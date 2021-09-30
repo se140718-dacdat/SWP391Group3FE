@@ -82,7 +82,7 @@
 
         <!-- POPUP-LOGIN  -->
         <div class="modal js-modal">
-            <div class="modal-cover">
+            <div id="modal-cover">
             </div>
             <div class="modal-content js-modal-content">
                 <div class="modal-header">
@@ -95,13 +95,14 @@
                         <p class="modal-description">Sign in to your account</p>
                     </div>
                 </div>
-                <div class="modal-container">
-                    <span class="fas fa-user input-user-icon"></span><input type="text" class="modal-input" placeholder="Username">
-                    <span class="fas fa-lock input-pwd-icon"></span><input type="password" class="modal-input" placeholder="Password">
+                <form class="modal-container" name="js-modal-container" method="POST" action="#" onsubmit="return checkLogin()">
+                    <span class="fas fa-user input-user-icon"></span><input type="text" class="modal-input" placeholder="Username" name="username">
+                    <span class="fas fa-lock input-pwd-icon"></span><input type="password" class="modal-input" placeholder="Password" name="pwd">
                     <!-- Button Submit Role To Redirect Page  -->
                     <button class="btn btn-login js-login">Login</button>
+                    <p class="login-status"></p>
                     <p class="modal-footer">New to recruit? <a href="#"> Register</a></p>
-                </div>
+                </form>
             </div>
         </div>
     </div>
