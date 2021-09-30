@@ -1,3 +1,5 @@
+// FILTER 
+
 var quantity = 2;
 var jobNumber = document.getElementById("job-number")
 var text = document.createTextNode(quantity);
@@ -39,3 +41,5 @@ for (const item of typesItem) {
         location.reload();
     })
 }
+
+// COMPANY LIST
