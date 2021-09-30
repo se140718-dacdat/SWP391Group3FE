@@ -1,0 +1,109 @@
+#content {
+    min-height: 600px;
+    max-width: 68.3%;
+    margin: auto;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-input {
+    width: 90%;
+    padding: 10px;
+    font-size: 1.8rem;
+    text-indent: 32px;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+.search--bar--icon {
+    z-index: 1;
+    position: absolute;
+    left: 16.5%;
+    color: var(--black-color);
+    opacity: 60%;
+}
+
+.clear-icon {
+    position: absolute;
+    z-index: 1;
+    right: 23.5%;
+    line-height: 45px;
+    color: #000;
+    opacity: 60%;
+    font-size: 30px;
+}
+
+.clear-icon:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.search-icon {
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn-search {
+    width: 10%;
+    padding: 0 2px;
+    font-size: 2.2rem;
+    border-radius: 0 2px 2px 0;
+}
+
+.filter {
+    color: #0066B2;
+    font-size: 2.2rem;
+    margin: 16px 0;
+}
+
+.filter--item {
+    display: inline-block;
+}
+
+#job-number {
+    font-weight: bold;
+}
+
+.filter--select {
+    float: right;
+    font-weight: bold;
+    margin-left: 40px;
+    position: relative;
+}
+
+.filter--select i {
+    margin-left: 2px;
+}
+
+.filter--select:hover {
+    cursor: pointer;
+    color: var(--black-color);
+}
+
+#majors-dropdown,
+#types-dropdown {
+    display: none;
+    position: absolute;
+    background-color: var(--white-color);
+    min-width: 300px;
+    padding: 26px 28px 20px 28px;
+}
+
+.majors:hover #majors-dropdown,
+.types:hover #types-dropdown {
+    display: block;
+}
+
+.majors-item,
+.types-item {
+    color: #0066B2;
+    margin-bottom: 4px;
+}
+
+.majors-item:hover,
+.types-item:hover {
+    color: var(--primary-color);
+}
