@@ -10,29 +10,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/frame.css">
-    <link rel="stylesheet" href="../assets/css/st-company-list.css">
+    <link rel="stylesheet" href="../assets/css/cre-home.css">
 </head>
 
 <body>
-
     <div id="wrapper">
-        <!-- HEADER  -->
         <div id="navbar">
             <div class="nav-list">
                 <div class="nav-item">
-                    <a href="student.html">home page</a>
+                    <a href=".">home page</a>
                 </div>
                 <div class="nav-item">
-                    <a href="#">career opportunities</a>
-                </div>
-                <div class="nav-item">
-                    <a href="#">transfer company</a>
+                    <a href="#">companies</a>
                 </div>
                 <div class="nav-item">
                     <a href="#">request</a>
                 </div>
                 <div class="nav-item">
-                    <a href="#">profile</a>
+                    <a href="#">students</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#">create ojt</a>
                 </div>
 
                 <div class="nav-item session">
@@ -46,46 +44,45 @@
                 <h3 class="title-content">phân hiệu trường đại học fpt tại thành phố hồ chí minh</h3>
             </div>
         </div>
-
-        <!-- BODY  -->
         <div id="content">
-            <div class="search-bar">
-                <i class="fas fa-search search--bar--icon search-icon"></i>
-                <input type="text" class="search-input" placeholder="Search for jobs, companies, skills">
-                <i class="fas fa-times-circle clear-icon"></i>
-                <button class="btn btn-search"><i class="fas fa-search search-icon"></i> Search</button>
-            </div>
-            <div class="filter">
-                <div class="filter--item"><span id="job-number"></span> Suitable jobs</div>
-                <div class="majors filter--item filter--select">Majors <i class="fas fa-sort-down"></i>
-                    <div id="majors-dropdown">
-                        <option class="majors-item" value="All">All</option>
-                    </div>
-                </div>
-
-                <div class="types filter--item filter--select">Types <i class="fas fa-sort-down"></i>
-                    <div id="types-dropdown">
-                    </div>
+            <div class="vertical-algin">
+                <h3 class="content-heading">company list</h3>
+                <div class="cr-search">
+                    Search <input class="cr-search-bar" type="text" name="cr-search" placeholder="Company name"><i class="fas fa-search vertical-algin"></i>
                 </div>
             </div>
-            <div class="company-list">
+            <div class="content-title">
+                <p style="flex-grow: 0;">no.</p>
+                <p style="flex-grow: 0.46;">company name</p>
+                <p style="flex-grow: 1;">address</p>
+                <p></p>
+                <p></p>
+            </div>
+            <div id="company-list">
+                <!-- GET LIST COMPANY FORM DB -->
                 <div class="company-item">
-                    <div class="company-logo">
-                        <img src="../assets/img/logo-company.jpg" alt="logo-company">
-                    </div>
-                    <!-- Loop Company List by JS -->
-                    <div class="company-info">
-                        <h3 class="recruitment-title">[OJT - FALL 2021] CÔNG TY TRUYỀN THÔNG NEW WAY</h3>
-                        <p class="company-name">CÔNG TY CP TRUYỀN THÔNG NEW WAY VN</p>
-                        <p class="company-place">Hồ Chí Minh</p>
-                        <p class="recruitment-time">Ngày tạo: 28-06-2021 - Bạn còn 53 ngày để ứng tuyển</p>
-                        <p class="recruitment-description">$ Lương: 0.000.000 ₫ Số lượng: 35 người</p>
-                    </div>
+                    <p class="col1">1</p>
+                    <p class="col2">fpt software</p>
+                    <p class="col3">123 sample</p>
+                    <button class="col4 btn js-btn-detail">detail</button>
+                    <button class="col5 btn js-btn-delete">delete</button>
+                </div>
+                <div class="company-item">
+                    <p class="col1">2</p>
+                    <p class="col2">fpt software</p>
+                    <p class="col3">123 sample</p>
+                    <button class="col4 btn js-btn-detail">detail</button>
+                    <button class="col5 btn js-btn-delete">delete</button>
+                </div>
+                <div class="company-item">
+                    <p class="col1">3</p>
+                    <p class="col2">fpt software</p>
+                    <p class="col3">123 sample</p>
+                    <button class="col4 btn js-btn-detail">detail</button>
+                    <button class="col5 btn js-btn-delete">delete</button>
                 </div>
             </div>
         </div>
-
-        <!-- FOOTER  -->
         <footer id="footer">
             <h3 class="title-content">phân hiệu trường đại học fpt tại thành phố hồ chí minh</h3>
             <div class="contact-list">
@@ -126,7 +123,6 @@
                 </div>
             </div>
         </footer>
-        <script src="../assets/js/st-company-list.js"></script>
 </body>
 
 </html>

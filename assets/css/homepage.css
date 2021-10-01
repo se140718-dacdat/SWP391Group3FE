@@ -1,11 +1,9 @@
-
-
-
 /* CONTENT */
 
 #content {
-    width: 100%;
+    max-width: 100% !important;
     background-color: #E3F0FC;
+    margin-top: 0 !important;
 }
 
 .content-banner {

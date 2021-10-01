@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background-color: #f7f7f7;
+    background-color: #fff;
     line-height: 2.5rem;
 }
 
@@ -35,4 +35,11 @@ body {
 
 .session {
     float: right;
+}
+
+#content {
+    min-height: 600px;
+    max-width: 68.3%;
+    margin: auto;
+    margin-top: 40px;
 }
