@@ -46,6 +46,16 @@ registerContent.addEventListener('click', function(event) {
     event.stopPropagation()
 })
 
+// REGISTER STATUS 
+const btnRegister = document.querySelector('.js-register')
+btnRegister.addEventListener('click', registerForm)
+
+function registerForm() {
+    register.classList.remove('display')
+    alert('Your form has been submitted!')
+    return false;
+}
+
 // CHECK LOGIN 
 const loginStatus = document.querySelector('.login-status')
 const IconX = '<i class="fas fa-times"></i>'
@@ -76,14 +86,4 @@ function checkLogin() {
         document.getElementById("modal-cover").style.height = '69%';
         return false;
     }
-    // var password = document.forms["js-modal-container"]["pwd"].value;
-    // if (username === "dacdat" && password === "123456") {
-    //     loginStatus.classList.add('errorMsg')
-    //     return true;
-    // } else {
-    //     return false;
-    // }
 }
-
-// var login = false;
-// if(login)
