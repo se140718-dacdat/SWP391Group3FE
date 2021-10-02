@@ -1,4 +1,4 @@
-// SHOW POPUP
+// SHOW POPUP-LOGIN
 
 const loginBtn = document.querySelector('.js-login-btn')
 const modal = document.querySelector('.js-modal')
@@ -24,7 +24,27 @@ modalContent.addEventListener('click', function(event) {
     event.stopPropagation()
 })
 
+// SHOW POPUP-REGISTER
+const registerLink = document.querySelector('.js-register-link')
+const register = document.querySelector('.js-register')
+const registerClose = document.querySelector('.js-register-close')
+const registerContent = document.querySelector('.js-register-content')
 
+function showRegister() {
+    register.classList.add('display')
+    modal.classList.remove('display')
+}
+
+function closeRegister() {
+    register.classList.remove('display')
+}
+
+registerLink.addEventListener('click', showRegister)
+registerClose.addEventListener('click', closeRegister)
+register.addEventListener('click', closeRegister)
+registerContent.addEventListener('click', function(event) {
+    event.stopPropagation()
+})
 
 // CHECK LOGIN 
 const loginStatus = document.querySelector('.login-status')

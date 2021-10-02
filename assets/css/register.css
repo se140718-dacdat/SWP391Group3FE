@@ -1,0 +1,104 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-haft {
+    width: 45%;
+}
+
+.register {
+    display: none;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(242, 114, 41, 0.7);
+}
+
+.register-content {
+    position: relative;
+    background-color: var(--white-color);
+    width: 70%;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border-radius: 40px;
+}
+
+.close-register {
+    top: 0;
+    right: 0;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 24px;
+    margin-right: 36px;
+    display: block;
+}
+
+.close-register:hover {
+    cursor: pointer;
+}
+
+.register-header {
+    text-align: center;
+    padding: 64px 16px 16px 16px;
+}
+
+.register-title {
+    display: block;
+}
+
+.register-logo {
+    width: 30%;
+}
+
+.register-title h2 {
+    font-size: 4.8rem;
+    color: var(--primary-color);
+    margin: 24px 0;
+}
+
+
+/* CONTAINER  */
+
+.register-container {
+    background-color: var(--primary-color);
+    border-radius: 0 0 40px 40px;
+}
+
+.register-body {
+    padding: 52px 42px 110px;
+}
+
+.register-input-name {
+    color: var(--white-color);
+    font-size: 2.4rem;
+    margin-bottom: 8px;
+}
+
+.register-input {
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 0;
+    margin-bottom: 52px;
+    outline: none;
+    font-size: 2rem;
+}
+
+.btn-register {
+    border: none;
+    padding: 12px 84px;
+    font-size: 3.6rem;
+    color: var(--primary-color);
+    margin-left: 75%;
+    border-radius: 40px;
+}
+
+.btn-register:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}

@@ -122,9 +122,14 @@
     margin-top: 8px;
 }
 
-.modal-footer a {
+.register-link {
     color: var(--primary-color);
     text-decoration: none;
+}
+
+.register-link:hover {
+    cursor: pointer;
+    opacity: 0.9;
 }
 
 .login-status {

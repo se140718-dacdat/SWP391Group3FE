@@ -12,101 +12,139 @@
     <link rel="stylesheet" href="../assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/login.css">
     <link rel="stylesheet" href="../assets/css/frame.css">
-</head>
+    <link rel="stylesheet" href="../assets/css/register.css">
 
-<body>
-    <div id="wrapper">
-        <div id="navbar">
-            <div class="nav-list">
-                <div class="nav-item">
-                    <a href=".">home page</a>
-                </div>
+    <body>
+        <div id="wrapper">
+            <div id="navbar">
+                <div class="nav-list">
+                    <div class="nav-item">
+                        <a href=".">home page</a>
+                    </div>
 
-                <div class="nav-item session js-login-btn">
-                    <a href="#">login</a>
-                </div>
-            </div>
-        </div>
-        <div id="header">
-            <div class="title">
-                <img class="title-img" src="../assets/img/logo-fpt-certificate.png" alt="logo FPT">
-                <h3 class="title-content">phân hiệu trường đại học fpt tại thành phố hồ chí minh</h3>
-            </div>
-        </div>
-        <div id="content">
-            <img class="content-banner" src="../assets/img/banner2-min.jpg" alt="banner">
-            <div class="partner">
-                <img class="partner-logo" src="../assets/img/partners.PNG" alt="partner">
-            </div>
-        </div>
-        <footer id="footer">
-            <h3 class="title-content">phân hiệu trường đại học fpt tại thành phố hồ chí minh</h3>
-            <div class="contact-list">
-                <div class="contact-item">
-                    <p class="contact-name">
-                        số điện thoại
-                    </p>
-                    <p class="contact-description">
-                        0934-177-713
-                    </p>
-                </div>
-                <div class="contact-item">
-                    <p class="contact-name">
-                        email
-                    </p>
-                    <p class="contact-description">
-                        qhdn.fuhcm@fe.edu.vn
-                    </p>
-                </div>
-                <div class="contact-item">
-                    <p class="contact-name">
-                        địa chỉ
-                    </p>
-                    <p class="contact-description">
-                        Lô E2a-7, Đường D1 Khu Công nghệ cao, P. Long Thạnh Mỹ, Q.9, TP. Hồ Chí Minh
-                    </p>
-                </div>
-                <div class="contact-item">
-                    <p class="contact-name">
-                        mạng xã hội
-                    </p>
-                    <div class="contact-description">
-                        <i class="fab fa-instagram contact-social--link"></i>
-                        <i class="fab fa-facebook-square contact-social--link"></i>
-                        <i class="fab fa-twitter contact-social--link"></i>
-                        <i class="fab fa-pinterest contact-social--link"></i>
+                    <div class="nav-item session js-login-btn">
+                        <a href="#">login</a>
                     </div>
                 </div>
             </div>
-        </footer>
-
-        <!-- POPUP-LOGIN  -->
-        <div class="modal js-modal">
-            <div id="modal-cover">
+            <div id="header">
+                <div class="title">
+                    <img class="title-img" src="../assets/img/logo-fpt-certificate.png" alt="logo FPT">
+                    <h3 class="title-content">phân hiệu trường đại học fpt tại thành phố hồ chí minh</h3>
+                </div>
             </div>
-            <div class="modal-content js-modal-content">
-                <div class="modal-header">
-                    <span class="close-modal js-modal-close">
+            <div id="content">
+                <img class="content-banner" src="../assets/img/banner2-min.jpg" alt="banner">
+                <div class="partner">
+                    <img class="partner-logo" src="../assets/img/partners.PNG" alt="partner">
+                </div>
+            </div>
+            <footer id="footer">
+                <h3 class="title-content">phân hiệu trường đại học fpt tại thành phố hồ chí minh</h3>
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <p class="contact-name">
+                            số điện thoại
+                        </p>
+                        <p class="contact-description">
+                            0934-177-713
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <p class="contact-name">
+                            email
+                        </p>
+                        <p class="contact-description">
+                            qhdn.fuhcm@fe.edu.vn
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <p class="contact-name">
+                            địa chỉ
+                        </p>
+                        <p class="contact-description">
+                            Lô E2a-7, Đường D1 Khu Công nghệ cao, P. Long Thạnh Mỹ, Q.9, TP. Hồ Chí Minh
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <p class="contact-name">
+                            mạng xã hội
+                        </p>
+                        <div class="contact-description">
+                            <i class="fab fa-instagram contact-social--link"></i>
+                            <i class="fab fa-facebook-square contact-social--link"></i>
+                            <i class="fab fa-twitter contact-social--link"></i>
+                            <i class="fab fa-pinterest contact-social--link"></i>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- POPUP-LOGIN  -->
+            <div class="modal js-modal">
+                <div id="modal-cover">
+                </div>
+                <div class="modal-content js-modal-content">
+                    <div class="modal-header">
+                        <span class="close-modal js-modal-close">
                         <i class="fas fa-times"></i>
                     </span>
-                    <div class="modal-title">
-                        <img class="modal-logo" src="../assets/img/logo-fpt-certificate.png" alt="">
-                        <h2 class="modal-name">Login</h2>
-                        <p class="modal-description">Sign in to your account</p>
+                        <div class="modal-title">
+                            <img class="modal-logo" src="../assets/img/logo-fpt-certificate.png" alt="logo-fpt">
+                            <h2 class="modal-name">Login</h2>
+                            <p class="modal-description">Sign in to your account</p>
+                        </div>
                     </div>
+                    <form class="modal-container" name="js-modal-container" method="POST" action="#" onsubmit="return checkLogin()">
+                        <span class="fas fa-user input-user-icon"></span><input type="text" class="modal-input" placeholder="Username" name="username">
+                        <span class="fas fa-lock input-pwd-icon"></span><input type="password" class="modal-input" placeholder="Password" name="pwd">
+                        <!-- Button Submit Role To Redirect Page  -->
+                        <button class="btn btn-login js-login">Login</button>
+                        <p class="login-status"></p>
+                        <p class="modal-footer">New to recruit? <span class="register-link js-register-link"> Register</span></p>
+                    </form>
                 </div>
-                <form class="modal-container" name="js-modal-container" method="POST" action="#" onsubmit="return checkLogin()">
-                    <span class="fas fa-user input-user-icon"></span><input type="text" class="modal-input" placeholder="Username" name="username">
-                    <span class="fas fa-lock input-pwd-icon"></span><input type="password" class="modal-input" placeholder="Password" name="pwd">
-                    <!-- Button Submit Role To Redirect Page  -->
-                    <button class="btn btn-login js-login">Login</button>
-                    <p class="login-status"></p>
-                    <p class="modal-footer">New to recruit? <a href="#"> Register</a></p>
-                </form>
+            </div>
+
+            <!-- POPUP-REGISTER  -->
+            <div class="register js-register">
+                <div class="register-content js-register-content">
+                    <div class="register-header">
+                        <span class="close-register js-register-close">
+                        <i class="fas fa-times"></i>
+                    </span>
+                        <div class="register-title">
+                            <img class="register-logo" src="../assets/img/logo-fpt-certificate.png" alt="logo-fpt">
+                            <h2>Company Registration Form</h2>
+                        </div>
+                    </div>
+                    <form class="register-container" name="js-register-container" method="POST" action="#" onsubmit="return registerForm()">
+                        <div class="register-body">
+                            <p class="register-input-name">Company / Bussiness name</p>
+                            <input type="text" class="register-input" name="name">
+                            <div class="row">
+                                <div class="col-haft">
+                                    <p class="register-input-name">Email</p>
+                                    <input type="text" class="register-input" name="email">
+                                </div>
+                                <div class="col-haft">
+                                    <p class="register-input-name">Phone</p>
+                                    <input type="text" class="register-input" name="phone">
+                                </div>
+                            </div>
+                            <p class="register-input-name">Address</p>
+                            <input type="text" class="register-input" name="address">
+                            <p class="register-input-name">Bussiness scope</p>
+                            <input type="text" class="register-input" name="scope">
+                            <p class="register-input-name">Company introduction</p>
+                            <textarea class="register-input" name="intro" cols="30" rows="8"></textarea>
+                            <button class="btn-register js-register">Register</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-    <script src="../assets/js/homepage.js"></script>
-</body>
+        <script src="../assets/js/homepage.js"></script>
+    </body>
 
 </html>
