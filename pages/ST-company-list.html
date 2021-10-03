@@ -56,6 +56,7 @@
                 <button class="btn btn-search"><i class="fas fa-search search-icon"></i> Search</button>
             </div>
             <div class="filter">
+                <!-- GET JOB NUMBER BY JS  -->
                 <div class="filter--item"><span id="job-number"></span> Suitable jobs</div>
                 <div class="majors filter--item filter--select">Majors <i class="fas fa-sort-down"></i>
                     <div id="majors-dropdown">
@@ -69,19 +70,37 @@
                 </div>
             </div>
             <div class="company-list">
+                <!-- Loop Company List by JS -->
                 <div class="company-item">
                     <div class="company-logo">
                         <img src="../assets/img/logo-company.jpg" alt="logo-company">
                     </div>
-                    <!-- Loop Company List by JS -->
                     <div class="company-info">
                         <h3 class="recruitment-title">[OJT - FALL 2021] CÔNG TY TRUYỀN THÔNG NEW WAY</h3>
                         <p class="company-name">CÔNG TY CP TRUYỀN THÔNG NEW WAY VN</p>
                         <p class="company-place">Hồ Chí Minh</p>
                         <p class="recruitment-time">Ngày tạo: 28-06-2021 - Bạn còn 53 ngày để ứng tuyển</p>
-                        <p class="recruitment-description">$ Lương: 0.000.000 ₫ Số lượng: 35 người</p>
+                        <p class="recruitment-description">$ Lương: <span class="salary">0.000.000</span> ₫ Số lượng: <span class="quantity">35</span> người</p>
                     </div>
                 </div>
+                <div class="company-item">
+                    <div class="company-logo">
+                        <img src="../assets/img/logo-company.jpg" alt="logo-company">
+                    </div>
+                    <div class="company-info">
+                        <h3 class="recruitment-title">[OJT - FALL 2021] CÔNG TY TRUYỀN THÔNG NEW WAY</h3>
+                        <p class="company-name">CÔNG TY CP TRUYỀN THÔNG NEW WAY VN</p>
+                        <p class="company-place">Hồ Chí Minh</p>
+                        <p class="recruitment-time">Ngày tạo: 28-06-2021 - Bạn còn 53 ngày để ứng tuyển</p>
+                        <p class="recruitment-description">$ Lương: <span class="salary">0.000.000</span> ₫ Số lượng: <span class="quantity">35</span> người</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="paging">
+                <button class="paging-btn pre-btn"><i class="fas fa-angle-double-left"></i></button>
+                <div class="page-number">1</div>
+                <button class="paging-btn next-btn"><i class="fas fa-angle-double-right"></i></button>
             </div>
         </div>
 
