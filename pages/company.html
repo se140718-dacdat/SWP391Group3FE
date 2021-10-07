@@ -85,6 +85,43 @@
                 </div>
             </div>
         </footer>
+         <!-- POPUP-REGISTER  -->
+         <div class="register js-register">
+            <div class="register-content js-register-content">
+                <div class="register-header">
+                    <span class="close-register js-register-close">
+                        <i class="fas fa-times"></i>
+                    </span>
+                    <div class="register-title">
+                        <img class="register-logo" src="../assets/img/logo-fpt-certificate.png" alt="logo-fpt">
+                        <h2>Company Registration Form</h2>
+                    </div>
+                </div>
+                <form class="register-container" name="js-register-container" method="POST" action="index.html" onsubmit="return registerForm()">
+                    <div class="register-body">
+                        <p class="register-input-name">Company / Bussiness name</p>
+                        <input type="text" class="register-input" name="name">
+                        <div class="row">
+                            <div class="col-haft">
+                                <p class="register-input-name">Email</p>
+                                <input type="text" class="register-input" name="email">
+                            </div>
+                            <div class="col-haft">
+                                <p class="register-input-name">Phone</p>
+                                <input type="text" class="register-input" name="phone">
+                            </div>
+                        </div>
+                        <p class="register-input-name">Address</p>
+                        <input type="text" class="register-input" name="address">
+                        <p class="register-input-name">Bussiness scope</p>
+                        <input type="text" class="register-input" name="scope">
+                        <p class="register-input-name">Company introduction</p>
+                        <textarea class="register-input" name="intro" cols="30" rows="8"></textarea>
+                        <button class="btn-register js-register">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
 </body>
 
 </html>
