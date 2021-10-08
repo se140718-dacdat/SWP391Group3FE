@@ -1,24 +1,38 @@
 /* SEARCH BAR  */
 
-#CREViewCompany .clear {
+#CREViewStudent .clear {
     content: "";
     clear: both;
     display: table;
 }
 
-#CREViewCompany .vertical-algin * {
+#CREViewStudent .vertical-algin * {
     display: inline-block;
     margin-bottom: 12px;
 }
 
-#CREViewCompany .content-heading {
+#CREViewStudent .content-heading {
     color: #2C5282;
     font-size: 2.4rem;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-#CREViewCompany .cr-search {
+#CREViewStudent .semeter * {
+    color: #2C5282;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#CREViewStudent .semeter-name {
+    margin: 0 8px;
+    padding: 4px 32px;
+    background-color: #DBF1FF;
+}
+
+#CREViewStudent .cr-search {
     width: 40%;
     position: relative;
     float: right;
@@ -29,7 +43,7 @@
     font-weight: bold;
 }
 
-#CREViewCompany .cr-search-bar {
+#CREViewStudent .cr-search-bar {
     right: inherit;
     width: 400px;
     padding: 6px 0;
@@ -39,7 +53,7 @@
     text-indent: 20px;
 }
 
-#CREViewCompany .cr-search i {
+#CREViewStudent .cr-search i {
     position: absolute;
     right: 8px;
     top: 8px;
@@ -48,7 +62,7 @@
 
 /* TITLE CONTENT  */
 
-#CREViewCompany .content-title {
+#CREViewStudent .content-title {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -57,61 +71,60 @@
     font-weight: bold;
 }
 
-#CREViewCompany .company-item {
+#CREViewStudent .student-item {
     width: 100%;
     font-size: 1.4rem;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-#CREViewCompany .content-title {
+#CREViewStudent .content-title {
     padding: 24px 16px 8px 16px;
     border-bottom: 1px solid;
     color: #2C5282;
 }
 
-#CREViewCompany .company-list {
+#CREViewStudent .student-list {
     margin-top: 24px;
 }
 
-#CREViewCompany .company-item {
+#CREViewStudent .student-item {
     background-color: #F7FAFC;
     padding: 24px 16px;
     margin-bottom: 8px;
 }
 
-#CREViewCompany .content-title>* {
+#CREViewStudent .content-title>* {
     margin-right: 24px;
     align-self: center;
 }
 
-#CREViewCompany .company-item>* {
+#CREViewStudent .student-item>* {
     display: inline-block;
 }
 
-#CREViewCompany .col1 {
+#CREViewStudent .col1 {
     width: 4%;
 }
 
-#CREViewCompany .col2 {
-    width: 35%;
+#CREViewStudent .col2 {
+    width: 20%;
 }
 
-#CREViewCompany .col3 {
-    width: 30%;
+#CREViewStudent .col3 {
+    width: 36%;
 }
 
-#CREViewCompany .col4 {
-    width: 10%;
+#CREViewStudent .col4 {
+    width: 20%;
     margin-right: 50px;
 }
 
-#CREViewCompany .col5 {
+#CREViewStudent .col5 {
     width: 10%;
 }
 
-#CREViewCompany .col4,
-#CREViewCompany .col5 {
+#CREViewStudent .col5 {
     color: var(--white-color);
     border: none;
     font-size: 1.4rem;
@@ -121,49 +134,45 @@
     border-radius: 5px;
 }
 
-#CREViewCompany .col4 {
+#CREViewStudent .col5 {
     background-color: #2C5282;
-}
-
-#CREViewCompany .col5 {
-    background-color: #D14848;
 }
 
 
 /* FILTER  */
 
-#CREViewCompany .filter {
+#CREViewStudent .filter {
     color: #0066B2;
     font-size: 2.2rem;
     margin: 16px 0;
 }
 
-#CREViewCompany .filter--item {
+#CREViewStudent .filter--item {
     display: inline-block;
 }
 
-#CREViewCompany #job-number {
+#CREViewStudent #job-number {
     font-weight: bold;
 }
 
-#CREViewCompany .filter--select {
+#CREViewStudent .filter--select {
     float: right;
     font-weight: bold;
     margin-left: 40px;
     position: relative;
 }
 
-#CREViewCompany .filter--select i {
+#CREViewStudent .filter--select i {
     margin-left: 2px;
 }
 
-#CREViewCompany .filter--select:hover {
+#CREViewStudent .filter--select:hover {
     cursor: pointer;
     color: var(--black-color);
 }
 
-#CREViewCompany #majors-dropdown,
-#CREViewCompany #types-dropdown {
+#CREViewStudent #majors-dropdown,
+#CREViewStudent #types-dropdown {
     display: none;
     position: absolute;
     background-color: var(--white-color);
@@ -171,18 +180,18 @@
     padding: 26px 28px 20px 28px;
 }
 
-#CREViewCompany .majors:hover #majors-dropdown,
-#CREViewCompany .types:hover #types-dropdown {
+#CREViewStudent .majors:hover #majors-dropdown,
+#CREViewStudent .types:hover #types-dropdown {
     display: block;
 }
 
-#CREViewCompany .majors-item,
-#CREViewCompany .types-item {
+#CREViewStudent .majors-item,
+#CREViewStudent .types-item {
     color: #0066B2;
     margin-bottom: 4px;
 }
 
-#CREViewCompany #CREViewCompany .majors-item:hover,
+#CREViewStudent #CREViewStudent .majors-item:hover,
 .types-item:hover {
     color: var(--primary-color);
 }
