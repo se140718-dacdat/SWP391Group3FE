@@ -1,0 +1,287 @@
+/* NAVIGATION */
+
+#navbar {
+    background-color: var(--primary-color);
+    display: inline-block;
+    width: 100%;
+}
+
+.nav-list {
+    width: 95%;
+    margin: auto;
+}
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #F27229;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7;
+    line-height: 2.5rem;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--white-color);
+}
+
+.session {
+    float: right;
+}
+
+#content {
+    min-height: 600px;
+    max-width: 68.3%;
+    margin: auto;
+    margin-top: 40px;
+}
+.nav-item {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 20px 16px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.nav-item:hover {
+    background-color: var(--white-color);
+    cursor: pointer;
+}
+
+.nav-item:hover a {
+    color: var(--primary-color);
+}
+
+
+/* HEADER */
+
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    padding: 24px 16px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-img {
+    width: 30%;
+}
+
+.title-content {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #0066B2;
+    align-self: center;
+}
+
+
+/* FOOTER */
+
+#footer h3 {
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    background-color: #1B2A4E;
+    flex-direction: column;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.contact-item {
+    display: inline-block;
+    padding: 12px 12px;
+    width: 50%;
+}
+
+.contact-name {
+    color: #FBD4BC;
+    font-size: 1.8rem;
+    text-transform: bold;
+    text-transform: uppercase;
+}
+
+.contact-description {
+    font-size: 1.8rem;
+    color: var(--white-color);
+    margin: 12px 0;
+}
+
+.contact-social--link {
+    margin-right: 12px;
+    font-size: 2.8rem;
+    color: #869AB8 !important;
+}
+
+.contact-social--link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* SEARCH BAR  */
+
+.vertical-algin {
+    line-height: 42px;
+}
+
+.content-heading {
+    color: #2C5282;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+}
+
+.cr-search {
+    width: 40%;
+    font-size: 1.8rem;
+    color: #2C5282;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    float: right;
+}
+
+.cr-search-bar {
+    position: absolute;
+    width: 85%;
+    padding: 10px 10px;
+    font-size: 1.6rem;
+    right: 0;
+    background-color: #DBF1FF;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.cr-search i {
+    position: absolute;
+    right: 8px;
+    font-size: 2rem;
+}
+
+
+/* TITLE CONTENT  */
+
+.content-title,
+.student-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content-title {
+    padding: 24px 16px 8px 16px;
+    border-bottom: 1px solid;
+    color: #2C5282;
+
+}
+
+.student-list {
+    margin-top: 24px;
+}
+
+.student-item {
+    background-color: #F7FAFC;
+    padding: 24px 16px;
+    margin-bottom: 8px;
+}
+
+.content-title>*,
+.student-item>* {
+    margin-right: 24px;
+    align-self: center;
+}
+
+.col1 {
+    width: 5%;
+    display: inline-block;
+}
+
+.col2 {
+    width: 20%;
+    display: inline-block;
+}
+
+.col3 {
+    width: 5%;
+    display: inline-block;
+}
+
+.col4 {
+    width: 8%;
+    display: inline-block;
+}
+
+.col5 {
+    width: 8%;
+    display: inline-block;
+}
+.col6 {
+    width: 8%;
+    display: inline-block;
+}
+.col4,
+.col5,
+.col6 {
+    color: var(--white-color);
+    border: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 14px 0;
+    border-radius: 5px;
+}
+
+.col4 {
+    background-color: #2C5282;
+}
+
+.col5 {
+    background-color: #62AA7A;;
+}
+
+.col6{
+    background-color: #D14848;;
+}

@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/base.css">
-    <link rel="stylesheet" href="../assets/css/homepage.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/frame.css">
-    <link rel="stylesheet" href="../assets/css/recruit.css">
+    <link rel="stylesheet" href="../assets/css/cre-home.css">
+    <link rel="stylesheet" href="../assets/css/ApplicationList.css">
 </head>
 
 <body>
@@ -43,9 +43,59 @@
             </div>
         </div>
         <div id="content">
-            <img class="content-banner" src="../assets/img/banner2-min.jpg" alt="banner">
-            <div class="partner">
-                <img class="partner-logo" src="../assets/img/partners.PNG" alt="partner">
+            <div class="vertical-algin">
+                <h3 class="content-heading">application list</h3>
+                <div class="cr-search">
+                    Search <input class="cr-search-bar" type="text" name="cr-search"><i class="fas fa-search vertical-algin"></i>
+                </div>
+            </div>
+            <div class="content-title">
+                <p style="flex-grow: 0.2;">no.</p>
+                <p style="flex-grow: 0.4;">student name</p>
+                <p style="flex-grow: 1;">roll number</p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div id="student-list">
+                <!-- GET LIST application DB -->
+                <div class="student-item">
+                    <p class="col1">1</p>
+                    <p class="col2">lê tiến anh</p>
+                    <p class="col3">se140720</p>
+                    <button class="col4 btn js-btn-detail">detail</button>
+                    <button class="col5 btn js-btn-delete">accept</button>
+                    <button class="col6 btn js-btn-delete">decline</button>
+                </div>
+                <div class="student-item">
+                    <p class="col1">2</p>
+                    <p class="col2">lương hồ đắc đạt</p>
+                    <p class="col3">se140718</p>
+                    <button class="col4 btn js-btn-detail">detail</button>
+                    <button class="col5 btn js-btn-delete">accept</button>
+                    <button class="col6 btn js-btn-delete">decline</button>
+                </div>
+                <div class="student-item">
+                    <p class="col1">3</p>
+                    <p class="col2">phạm thành long</p>
+                    <p class="col3">se140719</p>
+                    <button class="col4 btn js-btn-detail">detail</button>
+                    <button class="col5 btn js-btn-delete">accept</button>
+                    <button class="col6 btn js-btn-delete">decline</button>
+                </div>
+                <div class="student-item">
+                    <p class="col1">4</p>
+                    <p class="col2">phạm hoàng hoài tân</p>
+                    <p class="col3">se140721</p>
+                    <button class="col4 btn js-btn-detail">detail</button>
+                    <button class="col5 btn js-btn-delete">accept</button>
+                    <button class="col6 btn js-btn-delete">decline</button>
+                </div>
+            </div>
+            <div class="paging">
+                <button class="paging-btn pre-btn"><i class="fas fa-angle-double-left"></i></button>
+                <div class="page-number">1</div>
+                <button class="paging-btn next-btn"><i class="fas fa-angle-double-right"></i></button>
             </div>
         </div>
         <footer id="footer">
@@ -88,58 +138,6 @@
                 </div>
             </div>
         </footer>
-        <!-- POPUP-Recruiment  -->
-        <div class="recruitment js-recruitment">
-            <div class="recruitment-content js-recruitment-content">
-                <div class="recruitment-header">
-                    <span class="close-recruitment js-recruitment-close">
-                        <i class="fas fa-times"></i>
-                    </span>
-                    <div class="recruitment-title">
-                        <img class="recruitment-logo" src="../assets/img/logo-fpt-certificate.png" alt="logo-fpt">
-                        <h2>RECRUITMENT FORM</h2>
-                    </div>
-                </div>
-                <form class="recruitment-container" name="js-recruitment-container" method="POST" action="index.html" onsubmit="return recruitmentForm()">
-                    <div class="recruitment-body">
-                        <p class="recruitment-input-name">Company name</p>
-                        <input type="text" class="recruitment-input" name="name">
-                        <div class="row">
-                            <div class="col-haft">
-                                <p class="recruitment-input-name">Email</p>
-                                <input type="text" class="recruitment-input" name="email">
-                            </div>
-                            <div class="col-haft">
-                                <p class="recruitment-input-name">Phone</p>
-                                <input type="text" class="recruitment-input" name="phone">
-                            </div>
-                        </div>
-                        <p class="recruitment-input-name">Bussiness Area</p>
-                        <input type="text" class="recruitment-input" name="area">
-                        <p class="recruitment-input-name">Address</p>
-                        <input type="text" class="recruitment-input" name="address">
-                        <p class="recruitment-input-name">Company Introduction</p>
-                        <input type="text" class="recruitment-input" name="intro">
-                        <div class="row">
-                            <div class="col-haft">
-                                <p class="recruitment-input-name">Position Recruiment</p>
-                                <input type="text" class="recruitment-input" name="position">
-                            </div>
-                            <div class="col-haft">
-                                <p class="recruitment-input-name">Quantity</p>
-                                <input type="text" class="recruitment-input" name="quantity">
-                            </div>
-                        </div>
-
-                        <p class="recruitment-input-name">Other</p>
-                        <textarea class="recruitment-input" name="other" cols="30" rows="8"></textarea>
-                        <button class="btn-recruitment js-recruitment">Submit</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <script src="../assets/js/homepage.js"></script>
 </body>
 
 </html>

@@ -82,3 +82,7 @@ body {
     padding: 9.5px 12px;
     color: var(--white-color);
 }
+
+.display {
+    display: block !important;
+}
