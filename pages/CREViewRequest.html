@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/frame.css">
+    <link rel="stylesheet" href="../assets/css/CREViewRequest.css">
+    <link rel="stylesheet" href="../assets/css/CRERequestDetail.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="navbar">
+            <div class="nav-list">
+                <div class="nav-item">
+                    <a href="company.html">home page</a>
+                </div>
+                <div class="nav-item">
+                    <a href="CTStudentList.html">student</a>
+                </div>
+                <div class="nav-item">
+                    <a href="ApplicationList.html">ojt request list</a>
+                </div>
+                <div class="nav-item js-recruitment-link">
+                    <a href="#">recruit</a>
+                </div>
+
+                <div class="nav-item session">
+                    <a href="index.html">logout</a>
+                </div>
+            </div>
+        </div>
+        <div id="header">
+            <div class="title">
+                <img class="title-img" src="../assets/img/logo-fpt-certificate.png" alt="logo FPT">
+                <h3 class="title-content">phân hiệu trường đại học fpt tại thành phố hồ chí minh</h3>
+            </div>
+        </div>
+        <div id="CREViewRequest">
+            <div id="content">
+
+            </div>
+            <!-- POPUP Request Detail -->
+            <div class="recruitment js-recruitment">
+                <div class="recruitment-content js-recruitment-content">
+                    <div class="recruitment-header">
+                        <span class="close-recruitment js-recruitment-close">
+                        <i class="fas fa-times"></i>
+                    </span>
+                        <div class="recruitment-title">
+                            <h2>request detail</h2>
+                            <div class="underline"></div>
+                        </div>
+                    </div>
+                    <form class="recruitment-container" name="js-recruitment-container" method="POST" action="index.html" onsubmit="return recruitmentForm()">
+                        <div class="recruitment-body">
+                            <div class="row">
+                                <div class="col-4">type</div>
+                                <div class="col-4">student name</div>
+                                <div class="col-4">student id</div>
+                                <div class="col-4">term</div>
+                            </div>
+                            <div class="row student-information">
+                                <div class="col-4 js-request-status"><span class="request-status">register</span></div>
+                                <div class="col-4 js-student-name">nguyen van d</div>
+                                <div class="col-4 js-student-id">se150273</div>
+                                <div class="col-4 js-term">sp2021</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-haft">
+                                    <p>ojt company</p>
+                                    <p class="ojt-company">fpt software</p>
+                                </div>
+                                <!-- if status != transfer display = none -->
+                                <div class="col-haft col-transfer">
+                                    <p>transfer company</p>
+                                    <p class="transfer-company">kms</p>
+                                </div>
+                            </div>
+                            <div class="desc-title">
+                                <p>description</p>
+                                <textarea class="description-input" name="desc" cols="30" rows="4"></textarea>
+                            </div>
+                            <div class="btn-interact">
+                                <button class="btn btn-accept">accept</button>
+                                <button class="btn btn-decline">decline</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="../assets/js/homepage.js"></script>
+    </div>
+    <footer id="footer">
+        <h3 class="title-content">phân hiệu trường đại học fpt tại thành phố hồ chí minh</h3>
+        <div class="contact-list">
+            <div class="contact-item">
+                <p class="contact-name">
+                    số điện thoại
+                </p>
+                <p class="contact-description">
+                    0934-177-713
+                </p>
+            </div>
+            <div class="contact-item">
+                <p class="contact-name">
+                    email
+                </p>
+                <p class="contact-description">
+                    qhdn.fuhcm@fe.edu.vn
+                </p>
+            </div>
+            <div class="contact-item">
+                <p class="contact-name">
+                    địa chỉ
+                </p>
+                <p class="contact-description">
+                    Lô E2a-7, Đường D1 Khu Công nghệ cao, P. Long Thạnh Mỹ, Q.9, TP. Hồ Chí Minh
+                </p>
+            </div>
+            <div class="contact-item">
+                <p class="contact-name">
+                    mạng xã hội
+                </p>
+                <div class="contact-description">
+                    <i class="fab fa-instagram contact-social--link"></i>
+                    <i class="fab fa-facebook-square contact-social--link"></i>
+                    <i class="fab fa-twitter contact-social--link"></i>
+                    <i class="fab fa-pinterest contact-social--link"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

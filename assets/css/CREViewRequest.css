@@ -1,0 +1,92 @@
+#CREViewRequest #content {
+    text-transform: uppercase;
+}
+
+#CREViewRequest h3 {
+    font-size: 2.4rem;
+    color: #2C5282;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+#CREViewRequest .request-list {
+    width: 100%;
+}
+
+#CREViewRequest .request-title {
+    border-bottom: 1px solid #000;
+}
+
+#CREViewRequest .request-item {
+    background-color: #F7FAFC;
+    margin: 16px 0;
+}
+
+#CREViewRequest .request-item *,
+#CREViewRequest .request-title * {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#CREViewRequest .request-title * {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #2C5282;
+    font-weight: bold;
+}
+
+#CREViewRequest .request-item * {
+    display: inline-block;
+    margin: 12px 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.col1 {
+    width: 4%;
+}
+
+.col2 {
+    width: 18%;
+}
+
+.col3 {
+    width: 20%;
+}
+
+.col4 {
+    width: 22%;
+}
+
+.col5 {
+    width: 22%;
+}
+
+.col6 {
+    width: 14%;
+}
+
+.request-status {
+    padding: 4px 28px;
+    border-radius: 25px;
+    color: var(--white-color);
+    background-color: #62AA7A;
+    /* background-color: #2C5282; for transfer
+    background-color: #D14848; for cancel */
+}
+
+.btn-detail {
+    color: var(--white-color);
+    border: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 25px;
+    border-radius: 5px;
+    background-color: #2C5282;
+}
+
+.btn-detail:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
