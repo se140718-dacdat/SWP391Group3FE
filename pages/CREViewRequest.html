@@ -47,19 +47,19 @@
 
             </div>
             <!-- POPUP Request Detail -->
-            <div class="recruitment js-recruitment">
-                <div class="recruitment-content js-recruitment-content">
-                    <div class="recruitment-header">
-                        <span class="close-recruitment js-recruitment-close">
+            <div class="request js-request">
+                <div class="request-content js-request-content">
+                    <div class="request-header">
+                        <span class="close-request js-request-close">
                         <i class="fas fa-times"></i>
                     </span>
-                        <div class="recruitment-title">
+                        <div class="request-title">
                             <h2>request detail</h2>
                             <div class="underline"></div>
                         </div>
                     </div>
-                    <form class="recruitment-container" name="js-recruitment-container" method="POST" action="index.html" onsubmit="return recruitmentForm()">
-                        <div class="recruitment-body">
+                    <form class="request-container" name="js-request-container" method="POST" action="index.html" onsubmit="return requestForm()">
+                        <div class="request-body">
                             <div class="row">
                                 <div class="col-4">type</div>
                                 <div class="col-4">student name</div>
@@ -77,7 +77,7 @@
                                     <p>ojt company</p>
                                     <p class="ojt-company">fpt software</p>
                                 </div>
-                                <!-- if status != transfer display = none -->
+                                <!--status.equal(transfer) ?  add .display : remove .display-->
                                 <div class="col-haft col-transfer">
                                     <p>transfer company</p>
                                     <p class="transfer-company">kms</p>

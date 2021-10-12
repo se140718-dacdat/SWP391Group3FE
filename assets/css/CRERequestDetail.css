@@ -35,7 +35,7 @@
     margin-top: 42px;
 }
 
-#CREViewRequest .recruitment {
+#CREViewRequest .request {
     /* display: none; */
     z-index: 3;
     position: fixed;
@@ -46,7 +46,7 @@
     background-color: rgba(242, 114, 41, 0.7);
 }
 
-#CREViewRequest .recruitment-content {
+#CREViewRequest .request-content {
     position: relative;
     background-color: var(--white-color);
     width: 70%;
@@ -57,7 +57,7 @@
     padding: 52px;
 }
 
-#CREViewRequest .close-recruitment {
+#CREViewRequest .close-request {
     top: 0;
     right: 0;
     position: absolute;
@@ -67,16 +67,16 @@
     display: block;
 }
 
-#CREViewRequest .close-recruitment:hover {
+#CREViewRequest .close-request:hover {
     cursor: pointer;
 }
 
-#CREViewRequest .recruitment-title {
+#CREViewRequest .request-title {
     display: block;
     text-align: left;
 }
 
-#CREViewRequest .recruitment-title h2 {
+#CREViewRequest .request-title h2 {
     color: #2C5282;
     font-weight: bold;
     text-transform: uppercase;
