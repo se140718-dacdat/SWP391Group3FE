@@ -1,0 +1,145 @@
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-left {
+    border-right: 1px solid var(--black-color);
+}
+
+.col-right {
+    padding-left: 40px;
+}
+
+.col-haft {
+    float: left;
+    width: 50%;
+}
+
+.col-four-title {
+    float: left;
+    width: 20%;
+    height: 50px;
+    font-size: 2rem;
+    line-height: 50px;
+}
+
+.col-four-content {
+    font-weight: bold;
+    float: left;
+    width: 30%;
+    height: 50px;
+    font-size: 2rem;
+    line-height: 50px;
+}
+
+.student-personal {
+    width: 35%;
+    float: left;
+    background-color: var(--white-color);
+    height: 500px;
+}
+
+.student-description {
+    width: 65%;
+    float: left;
+    background-color: rgba(168, 228, 252, 0.37);
+    height: 500px;
+    border-radius: 4px 4px 0 0;
+}
+
+.student-personal-name {
+    text-align: center;
+    font-size: 3.6rem;
+    text-transform: capitalize;
+}
+
+.student-personal-avt {
+    margin: auto;
+    max-width: 300px;
+    min-height: 300px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.student-personal-avt img {
+    width: 100%;
+    display: block;
+}
+
+.student-personal-info {
+    text-align: center;
+}
+
+.student-personal-info * {
+    text-align: left;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.student-personal-info p:first-child {
+    padding-left: 50px;
+}
+
+.student-personal-cv {
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: #6199F6;
+    font-weight: normal;
+}
+
+
+/* DESCRIPTION  */
+
+.student-description-heading {
+    font-size: 3.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 32px 32px 18px;
+    border-bottom: 1px solid var(--black-color);
+}
+
+.student-description-body {
+    padding: 24px 40px 18px;
+}
+
+.about * {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.about {
+    margin: 12px 0 24px;
+}
+
+.about span {
+    width: 20%;
+}
+
+.student-about {
+    width: 75%;
+    font-weight: bold;
+}
+
+.description {
+    width: 100%;
+}
+
+.description span {
+    width: 20%;
+    float: left;
+    font-size: 2.4rem;
+}
+
+.description-texarea {
+    float: left;
+    width: 75%;
+    border-radius: 8px;
+    background-color: #F5FCFF;
+    border: none;
+    padding: 20px;
+    font-size: 2rem;
+    outline: none;
+}

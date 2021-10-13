@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../assets/css/studentinfo.css">
     <link rel="stylesheet" href="../assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="../assets/css/frame.css">
+    <link rel="stylesheet" href="../assets/css/student-info.css">
 
 </head>
 
@@ -19,17 +19,21 @@
         <div id="navbar">
             <div class="nav-list">
                 <div class="nav-item">
-                    <a href="company.html">home page</a>
+                    <a href=".">home page</a>
                 </div>
                 <div class="nav-item">
-                    <a href="#">student</a>
+                    <a href="#">career opportunities</a>
                 </div>
                 <div class="nav-item">
-                    <a href="ApplicationList.html">ojt request list</a>
+                    <a href="#">transfer company</a>
                 </div>
-                <div class="nav-item js-recruitment-link">
-                    <a href="#">recruit</a>
+                <div class="nav-item">
+                    <a href="#">request</a>
                 </div>
+                <div class="nav-item">
+                    <a href="#">profile</a>
+                </div>
+
 
                 <div class="nav-item session">
                     <a href="index.html">logout</a>
@@ -43,51 +47,62 @@
             </div>
         </div>
         <div id="content">
-            <div class="student--intro">
-                <div class="student--info">
-                    <h3>STUDENT INFOMATION</h3>
-                    <p class="fullname-title">Full Name</p>
-                    <p class="fullname"> Le Tien Anh</p>
-                    <p id="gender-title">Gender</p>
-                    <p id="gender">Male</p>
-                    <p class="rollnumber-title">Roll Number</p>
-                    <p class="rollnumber">SE140720</p>
-                    <p class="major-title">Major</p>
-                    <p class="major">Software Engineer</p>
-                    <p class="email-title">Email</p>
-                    <p class="email">Anhltse140720@fpt.edu.vn</p>
-                    <p class="address-title">Address</p>
-                    <p class="address">Ba Dinh Ha Noi</p>
-                    <p class="phonenumber-title">Phone Number</p>
-                    <p class="phonenumber">123456789</p>
-                    <p class="descreption">Descreption</p>
-                    <div>
-                        <input id="inputDes" type="text">
+            <div class="row">
+                <div class="student-personal">
+                    <h3 class="student-personal-name">luong ho dac dat</h3>
+                    <div class="student-personal-avt">
+                        <img src="../assets/img/blankAvt.jpg" alt="student's avatar">
                     </div>
-                    <div>
-                        <hr width="100%" color="black" size="1px" line-height="100px" style="margin-top: -450px;">
+                    <div class="row student-personal-info">
+                        <p class="col-haft">Age</p>
+                        <p class="col-haft">21</p>
+                    </div>
+                    <div class="row student-personal-info">
+                        <p class="col-haft">Location</p>
+                        <p class="col-haft">Ha Noi, Viet Nam</p>
+                    </div>
+                    <div class="row student-personal-info">
+                        <p class="col-haft">CV</p>
+                        <p class="col-haft"><a class="student-personal-cv" href="#">myCV.pdf</a></p>
                     </div>
                 </div>
-
-                <div>
-                    <p class="name"> Le Tien Anh</p>
-                    <div>
-                        <img src="https://st.quantrimang.com/photos/image/072015/22/avatar.jpg" width="248px" height="215px" style="margin-top: 70px;; margin-left: -15%;">
+                <div class="student-description">
+                    <h3 class="student-description-heading">student information</h3>
+                    <div class="student-description-body">
+                        <div class="row">
+                            <div class="col-four-title">
+                                Full Name
+                            </div>
+                            <div class="col-four-content col-left">Luong Ho Dac Dat</div>
+                            <div class="col-four-title col-right">Gender</div>
+                            <div class="col-four-content">Male</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-four-title">
+                                Roll Number
+                            </div>
+                            <div class="col-four-content col-left">SE140718</div>
+                            <div class="col-four-title col-right">Major</div>
+                            <div class="col-four-content">Software Engineer</div>
+                        </div>
+                        <div class="about">
+                            <span>Email</span>
+                            <div class="student-about">datlhdse140718@fpt.edu.vn</div>
+                        </div>
+                        <div class="about">
+                            <span>Address</span>
+                            <div class="student-about">address sample</div>
+                        </div>
+                        <div class="about">
+                            <span>Phone</span>
+                            <div class="student-about">0123456789</div>
+                        </div>
+                        <div class="description row">
+                            <span>Description</span>
+                            <textarea class="description-texarea" name="description" rows="3"></textarea>
+                        </div>
                     </div>
-                    <p class="age-title"> Age</p>
-                    <p class="age"> 22</p>
-                    <p class="location-title"> Location</p>
-                    <p class="location"> Ha Noi, Viet Nam</p>
-                    <p class="cv-title"> CV</p>
-                    <p class="cv"> myCV.pdf</p>
                 </div>
-            </div>
-
-            <div class="student-introduction">
-
-            </div>
-            <div class="student-information">
-
             </div>
         </div>
         <footer id="footer">
