@@ -1,0 +1,240 @@
+.student-profile,
+.student-about {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.col-haft {
+    width: 45%;
+    float: left;
+}
+
+.col-left {
+    width: 30%;
+    float: left;
+    margin: auto;
+}
+
+.col-right {
+    width: 65%;
+    float: right;
+}
+
+.student-avt {
+    max-width: 300px;
+    min-height: 300px;
+    height: 327px;
+}
+
+.student-profile-info {
+    height: 327px;
+}
+
+.student-avt img {
+    width: 100%;
+    display: block;
+}
+
+.row-profile {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.row-profile::after,
+.student-profile::after,
+.student-detail::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.student-detail {
+    margin-bottom: 100px;
+}
+
+.row-profile * {
+    display: inline-block;
+}
+
+.row-profile span {
+    width: 30%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.col-info,
+.col-id {
+    width: 65%;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.col-id {
+    text-transform: uppercase !important;
+}
+
+.profile-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.profile-title strong {
+    font-weight: normal;
+}
+
+.row-profile .col-haft {
+    font-size: 2.4rem;
+}
+
+.row-profile .col-haft a {
+    color: #6199F6;
+    text-decoration: none;
+}
+
+.btn-browse,
+.btn-cancel {
+    font-size: 2.4rem;
+    background-color: #D1D6DA;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+
+.btn-browse:hover,
+.btn-cancel:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.line {
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.line-title {
+    font-weight: bold;
+    font-size: 2.6rem;
+    opacity: 0.6;
+    margin-bottom: 12px;
+    margin-left: 16px;
+}
+
+.line-title i {
+    font-size: 2rem;
+}
+
+.divide {
+    display: flex;
+    margin: 32px 0;
+}
+
+.divide-name {
+    flex-grow: 0.1;
+    font-size: 1.8rem;
+    color: #c4c4c4;
+    margin-right: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.divide-line {
+    border-bottom: 1px solid #c4c4c4;
+    flex-grow: 200;
+    margin-bottom: 6px;
+}
+
+.work-title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 24px;
+}
+
+.training-item {
+    margin-bottom: 12px;
+}
+
+.training-item * {
+    display: inline-block;
+}
+
+.training-name {
+    margin-left: 8px;
+    font-size: 1.8rem;
+}
+
+.job-applied * {
+    display: inline-block;
+}
+
+.job {
+    margin-bottom: 100px;
+}
+
+.company-applied {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 16px;
+}
+
+.skills {
+    height: 200px;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid var(--black-color);
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.skill-item {
+    margin-left: 16px;
+}
+
+.about-title {
+    font-size: 1.8rem;
+    color: #c4c4c4;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 32px 0;
+}
+
+.row-profile input,
+.row-profile textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 1.8rem;
+}
+
+.description {
+    display: block;
+    width: 100% !important;
+    margin-bottom: 12px;
+}
+
+.btn-interact {
+    float: right;
+}
+
+.btn-transfer,
+.btn-apply {
+    padding: 4px 32px;
+    border-radius: 12px;
+    border: none;
+    height: 52px;
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.btn-transfer {
+    background-color: #C4C4C4;
+    color: var(--black-color);
+}
+
+.btn-apply {
+    background-color: var(--primary-color);
+    margin-left: 42px;
+}
