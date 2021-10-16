@@ -207,19 +207,33 @@
 
 .modal-title {
     margin-top: 32px;
+    width: 100%;
+}
+
+.modal-title>* {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .modal-company-logo {
-    max-height: 56px;
+    width: 20%;
+    float: left;
+}
+
+.modal-company-logo img {
+    width: 100%;
     object-fit: cover;
-    line-height: 20rem;
 }
 
 .company-introduction {
+    width: 70%;
+    float: left;
     margin-left: 50px;
     text-align: left;
-    vertical-align: middle;
+    height: 100%;
 }
+
+.company-introduction div {}
 
 .company-name {
     font-size: 3.6rem;
@@ -343,4 +357,10 @@
 .btn-apply {
     background-color: var(--primary-color);
     margin-left: 42px;
+}
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: table;
 }
