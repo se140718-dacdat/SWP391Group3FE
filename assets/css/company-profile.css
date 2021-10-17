@@ -1,0 +1,163 @@
+.company-profile,
+.company-about {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.col-haft {
+    width: 45%;
+    float: left;
+}
+
+.col-left {
+    width: 30%;
+    float: left;
+    margin: auto;
+}
+
+.col-right {
+    width: 65%;
+    float: right;
+}
+
+.company-logo {
+    max-width: 300px;
+    min-height: 250px;
+    height: 250px;
+}
+
+.company-profile-info {
+    height: 250px;
+}
+
+.company-logo img {
+    width: 100%;
+    display: block;
+}
+
+.row-profile {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 30%;
+}
+
+.row-profile *,
+.row-detail * {
+    display: inline-block;
+}
+
+.row-profile::after,
+.company-profile::after,
+.company-detail::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.company-detail {
+    margin-bottom: 30px;
+}
+
+.row-profile span {
+    width: 30%;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.col-info {
+    width: 60%;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.website {
+    text-transform: none !important;
+}
+
+.about-title {
+    font-size: 1.8rem;
+    color: #c4c4c4;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 32px 0;
+}
+
+.row-detail {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.row-detail span {
+    width: 20%;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.col-input {
+    width: 75%;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    float: right;
+}
+
+.divide {
+    display: flex;
+    margin: 32px 0;
+}
+
+.divide-name {
+    flex-grow: 0.1;
+    font-size: 1.8rem;
+    color: #c4c4c4;
+    margin-right: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.divide-line {
+    border-bottom: 1px solid #c4c4c4;
+    flex-grow: 200;
+    margin-bottom: 6px;
+}
+
+.row-profile textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 1.8rem;
+}
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: none;
+}
+
+.btn-interact {
+    float: right;
+}
+
+.btn-cancel,
+.btn-save {
+    padding: 4px 32px;
+    border-radius: 12px;
+    border: none;
+    height: 52px;
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.btn-cancel {
+    background-color: #C4C4C4;
+    color: var(--black-color);
+}
+
+.btn-save {
+    background-color: var(--primary-color);
+    margin-left: 42px;
+}
